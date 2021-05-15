@@ -1,3 +1,3 @@
 ### JAVA
 
-Naujas Java demo projektas
+Naujas Java demo projektas 
