@@ -1,3 +1,5 @@
+package intro;
+
 import java.util.Arrays;
 
 public class PirmasFailas {

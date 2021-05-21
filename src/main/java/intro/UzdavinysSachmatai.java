@@ -1,3 +1,5 @@
+package intro;
+
 import java.math.BigInteger;
 
 public class UzdavinysSachmatai {

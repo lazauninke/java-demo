@@ -1,3 +1,5 @@
+package intro;
+
 public class Mokytojas extends Zmogus {
     private String dalykas;
 

@@ -1,3 +1,5 @@
+package intro;
+
 import javax.swing.*;
 
 public class Mokykla {
@@ -8,11 +10,11 @@ public class Mokykla {
 }
 
 
-//class Specialistas extends Mokytojas {
+//class Specialistas extends intro.Mokytojas {
 //    int dalykoLygis;
 //}
 //
 //class Tevai {
-//    Zmogus t1;
-//    Zmogus t2;
+//    intro.Zmogus t1;
+//    intro.Zmogus t2;
 //}

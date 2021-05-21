@@ -1,3 +1,5 @@
+package intro;
+
 public class Zmogus extends Object {
     private String vardas;
     private String pavarde;
@@ -5,7 +7,7 @@ public class Zmogus extends Object {
     private String telefonas;
     private String email;
 
-//    public Zmogus() {
+//    public intro.Zmogus() {
 //
 //    }
 

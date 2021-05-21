@@ -1,4 +1,4 @@
-/*
+package intro;/*
     Parašykite programą, kuri mokėtų suapvalinti double tipo skaičius pagal
     nurodytą tikslumą. Panaudokite matematinę funkciją Math.floor(…)
 

@@ -1,3 +1,5 @@
+package intro;
+
 public class KlasesDemo {
 
     public static void main(String[] args) {

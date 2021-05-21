@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Uzdavinys2test" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-18T11:39:50" hostname="LAPTOP-8U8IHLRH" time="0.048">
+  <properties/>
+  <testcase name="testZero()" classname="Uzdavinys2test" time="0.041"/>
+  <testcase name="testPositive()" classname="Uzdavinys2test" time="0.002"/>
+  <testcase name="testNegative()" classname="Uzdavinys2test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
