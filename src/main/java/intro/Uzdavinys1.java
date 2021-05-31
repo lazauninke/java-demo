@@ -4,11 +4,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
-Duoti trys skaičiai: a, b, c. Nustatykite ar šie skaičiai gali būti
+Duoti trys skaiciai: a, b, c. Nustatykite ar šie skaičiai gali būti
 trikampio kraštinių ilgiai ir jei gali tai kokio trikampio:
 lygiakraščio, lygiašonio ar įvairiakraščio.
 Atspausdinkite atsakymą.
  */
+
 public class Uzdavinys1 {
 
     public static void main(String[] args) {

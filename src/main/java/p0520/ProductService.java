@@ -1,22 +1,20 @@
 package lt.bit.p0520;
 
-import intro.Product;
-
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
 public class ProductService {
 
-    public Product[] getProducts() {
-        return new Product[] {
-                new Product("Agurkai", 1.5, 1),
-                new Product("Agurkai", 0.5, 2),
-                new Product("Morkos", 3., 1),
-                new Product("Arbuzai", 3., 1),
-                new Product("Obuoliai", 3., 1),
-                new Product("Burokai", 5., 1),
-                new Product("Zirniai", 9., 0)
+    public lt.bit.p0520.Product[] getProducts() {
+        return new lt.bit.p0520.Product[] {
+                new lt.bit.p0520.Product("Agurkai", 1.5, 1),
+                new lt.bit.p0520.Product("Agurkai", 0.5, 2),
+                new lt.bit.p0520.Product("Morkos", 3., 1),
+                new lt.bit.p0520.Product("Arbuzai", 3., 1),
+                new lt.bit.p0520.Product("Obuoliai", 3., 1),
+                new lt.bit.p0520.Product("Burokai", 5., 1),
+                new lt.bit.p0520.Product("Zirniai", 9., 0)
         };
     }
 
@@ -27,12 +25,12 @@ public class ProductService {
     // 2 7 5 4 6
 
     // 2
-    public void sort(Product[] products) {
+    public void sort(lt.bit.p0520.Product[] products) {
         for (int i = 0; i < products.length - 1; i++) {
             for (int j = i + 1; j < products.length; j++) {
                 // if (products[i] > product[j]) products[i] <-> product[j]
                 if (compare(products[i], products[j]) > 0) {
-                    Product p = products[i];
+                    lt.bit.p0520.Product p = products[i];
                     products[i] = products[j];
                     products[j] = p;
                 }
@@ -79,7 +77,7 @@ public class ProductService {
     // a < b   -n
     // a == b  0
     // a > b   +n
-    private int compare(Product a, Product b) {
+    private int compare(lt.bit.p0520.Product a, lt.bit.p0520.Product b) {
         if (a.isValid() && !b.isValid()) return -1;
         if (!a.isValid() && b.isValid()) return 1;
 
